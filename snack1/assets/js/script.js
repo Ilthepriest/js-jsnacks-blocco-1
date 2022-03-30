@@ -8,6 +8,8 @@ console.log(secondo_numero);
 
 if(primo_numero > secondo_numero){
     console.log(`è maggiore ${primo_numero}`);
+}else if(primo_numero == secondo_numero){
+    console.log(`è uguale ${secondo_numero}`);
 }else{
     console.log(`è maggiore ${secondo_numero}`);
 }
