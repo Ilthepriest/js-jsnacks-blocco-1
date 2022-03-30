@@ -1,26 +1,40 @@
+//SOLUZIONE COMPLESSA PROVATA IN MATTINATA
 
-const lista = [];
-for (let i = 1; i <= 3; i++) {
 
-    let inserisci_10_numeri = Number(prompt(`Inserisci numero ${i}`));
+// const lista = [];
+
+// let somma = 0
+
+// for (let i = 1; i <= 3; i++) {
+
+//     let inserisci_10_numeri = Number(prompt(`Inserisci numero ${i}`));
     
-    lista.push(inserisci_10_numeri);
-    ciao()
+//     lista.push(inserisci_10_numeri);
+//     addizione()
+// }
+
+
+// function addizione(){
     
-   
+//     for (let i = 1; i < lista.length; i++) {
+//         somma =  somma + lista[i];
+//     }
+// }
+
+// console.log(`Questa è la somma ${somma}`);
+
+//-------------------------------------------------------------------------------------------------------------
+
+//SOLUZIONE SEMPLICE AGGIORNATA NEL POMERIGGIO
+
+
+let somma = 0;
+
+for (let i = 1; i <=2 ; i++) {
+
+    const richiedo_10_numeri = Number(prompt(`Inserisci numero ${i}`))
+
+    somma += richiedo_10_numeri;
 }
 
-
-
-function ciao(){
-    let somma = 0;
-    for (let i = 0; i < lista.length; i++) {
-        somma += lista[i];
-
-         
-    
-    }
-console.log(`Questa è la somma ${somma}`);    
-    
-}
-
+console.log(`La somma è ${somma}`);
