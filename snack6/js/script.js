@@ -22,6 +22,8 @@
 
 //Cubi possibili fino al numero inserito dall'utente
 
+console.log("Cubi possibili fino al numero inserito");
+
  const number_inserito = Number(prompt("Inserisci numero"));
 
   for (let i = 1; i <= number_inserito; i++) {
