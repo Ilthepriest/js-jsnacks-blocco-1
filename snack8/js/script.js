@@ -8,4 +8,5 @@ for (let i = 0; i < numero_4_cifre.length; i++) {
     somma += Number(numero);    
 }
 
+console.log("Questa è la somma dei singoli numeri della cifra inserita");
 console.log(somma);
