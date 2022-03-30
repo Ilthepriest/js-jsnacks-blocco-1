@@ -11,4 +11,4 @@ for (let i = 1; i <= 6; i++) {
  
 }
 
-console.log(vuoto);
+console.log(`Ho preso solo i numeri dispari ${vuoto}`);
