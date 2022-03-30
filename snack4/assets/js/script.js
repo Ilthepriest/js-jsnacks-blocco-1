@@ -3,28 +3,21 @@ const invitati_festa_gatsby = ["Luigi", "Marco", "Leonardo"];
 const nome = prompt("Dimmi il tuo nome");
 
 
-let entra = false
+let condizione = false;
 
 for (let i = 0; i < invitati_festa_gatsby.length; i++) {
-    let entra = invitati_festa_gatsby[i];
+    let elenco = invitati_festa_gatsby[i];
 
    
-    if(entra == nome){
-        
-        entra = true; 
-
-        
-    }else{
-        
-        entra = false
+    if(elenco == nome){
+        condizione = true;  
     }
 
-    if (entra) {
-        console.log("puoi entrare");
-    }else{
-        console.log("non puoi entrare");
-    }
+}
 
-    
+if(condizione == true) {
+    console.log("puoi entrare");
+}else{
+    console.log("non puoi entrare");
 }
 
